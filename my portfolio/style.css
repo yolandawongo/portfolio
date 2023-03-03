@@ -1,0 +1,333 @@
+*{
+  margin:0;padding: 0;font-family:sans-serif ;box-sizing: border-box;
+}
+body
+{
+  width: 100%;
+background-color:palevioletred
+
+}
+ .yolanda3
+{
+  border-radius: 24px;width:500px ;height: 500px; margin-left:800px ;
+}
+#header
+{
+width: 100%; height: 120px;background-size: cover;background-position: center;
+}
+.container
+{
+  padding:10px 10%;
+}
+nav
+{
+  display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;
+}
+.icon
+{
+  width:140px ;
+}
+nav ul li 
+{
+display: inline-block;list-style: none;margin: 10px 20px;
+}
+nav ul li a 
+{
+  color: blue;text-decoration: none;font-size: 18px;position: relative;
+}
+nav ul li a ::after
+{
+ content:'' ; width:0 ;height: 3px;background:purple ;position: absolute;left: 0;bottom: -6px; transition:0.5s ;
+}
+nav ul li a :hover
+{
+width: 100%;
+}
+.header text
+{
+margin-top: 30%;font-size: 30px;
+}
+.header-text p
+{
+margin: 20px 20px; font: size 30px; 
+}
+.header-text H1
+{
+margin: 20px 20px ;font-size:40px ;
+}
+.header-text H1 SPAN
+{
+  color: blue;font-size:60px ;font-style: italic;margin: 20px 20px;
+}
+.container
+{
+width: 100%;
+}
+.container img
+{
+width:100% ; border: radius 24px; ;
+}
+#about
+{
+ padding: 80px 0; color: blueviolet; display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis:15% 15%;
+ background-color: black;
+}
+.container img
+{
+border-radius: 24px; width: 500px;height: 500px;margin-left:400px ;
+}
+.container h1
+{
+padding: 80px 0;text-align: center;
+}
+#PROJECTS
+{
+  padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+}
+.container
+{
+  width: 100%;
+}
+#CONTACT
+{
+  padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+}
+.container
+{
+  width: 100%;
+}
+.MESSAGE
+{
+width: 200px;height: 200px;
+}
+Button
+{
+background:green ;
+color: black;
+border-radius: 14px;
+width:166px ;
+height: 42px;
+}
+@media only screen and(max-width: 100% ){/* For desktop: */
+  body
+{
+  width: 100%;
+background-color:palevioletred
+
+}
+ .yolanda3
+{
+  border-radius: 24px;width:500px ;height: 500px; margin-left:250px ;
+}
+#header
+{
+width: 100%; height: 120px;background-size: cover;background-position: center;
+}
+.container
+{
+  padding:10px 10%;
+}
+nav
+{
+  display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;
+}
+.icon
+{
+  width:140px ;
+}
+nav ul li 
+{
+display: inline-block;list-style: none;margin: 10px 20px;
+}
+nav ul li a 
+{
+  color: blue;text-decoration: none;font-size: 18px;position: relative;
+}
+nav ul li a ::after
+{
+ content:'' ; width:0 ;height: 3px;background:purple ;position: absolute;left: 0;bottom: -6px; transition:0.5s ;
+}
+nav ul li a :hover
+{
+width: 100%;
+}
+.header text
+{
+margin-top: 30%;font-size: 30px;
+}
+.header-text p
+{
+margin: 20px 20px; font: size 30px; 
+}
+.header-text H1
+{
+margin: 20px 20px ;font-size:40px ;
+}
+.header-text H1 SPAN
+{
+  color: blue;font-size:60px ;font-style: italic;margin: 20px 20px;
+}
+.container
+{
+width: 100%;
+}
+.container img
+{
+width:100% ; border: radius 24px; ;
+}
+#about
+{
+ padding: 80px 0; color: blueviolet; display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis:15% 15%;
+ background-color: black;
+}
+.container img
+{
+border-radius: 24px; width: 500px;height: 500px;margin-left:150px ;
+}
+.container h1
+{
+padding: 80px 0;text-align: center;
+}
+#PROJECTS
+{
+  padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+}
+.container
+{
+  width: 100%;
+}
+#CONTACT
+{
+  padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+}
+.container
+{
+  width: 100%;
+}
+.MESSAGE
+{
+width: 200px;height: 200px;
+}
+Button
+{
+background:green ;
+color: black;
+border-radius: 14px;
+width:166px ;
+height: 42px;
+}
+  
+}
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+  body
+  {
+    width: 100%;
+    height:750px ;
+  background-color:palevioletred
+  
+  }
+   .yolanda3
+  {
+    border-radius: 24px;width: 326px;;height: 326px;margin-left: 73px;
+  }
+  #header
+  {
+  width: 100%; height: 120px;background-size: cover;background-position: center;
+  }
+  .container
+  {
+    padding:10px 10%;
+  }
+  nav
+  {
+   
+  display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;
+  }
+  .icon
+  {
+    width:140px ;
+  }
+  nav ul li 
+  {
+  display: inline-block;list-style: none;margin: 5px 5px;
+  }
+  nav ul li a 
+  {
+    color: blue;text-decoration: none;font-size: 18px;position: relative;
+  }
+  nav ul li a ::after
+  {
+   content:'' ; width:0 ;height: 3px;background:purple ;position: absolute;left: 0;bottom: -6px; transition:0.5s ;
+  }
+  nav ul li a :hover
+  {
+  width: 100%;
+  }
+  .header text
+  {
+  margin-top: 30%;font-size: 30px;
+  }
+  .header-text p
+  {
+  margin: 20px 20px; font: size 30px; 
+  }
+  .header-text H1
+  {
+  margin: 20px 20px ;font-size:40px ;
+  }
+  .header-text H1 SPAN
+  {
+    color: blue;font-size:60px ;font-style: italic;margin: 20px 20px;
+  }
+  .container
+  {
+  width: 100%;
+  }
+  .container img
+  {
+  width:100% ; border: radius 24px; ;
+  }
+  #about
+  {
+   padding: 80px 0; color: blueviolet; display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis:15% 15%;
+   background-color: black;
+  }
+  .container img
+  {
+  border-radius: 24px; width: 310px;height: 310px;margin-left:13px ;
+  }
+  .container h1
+  {
+  padding: 80px 0;text-align: center;
+  }
+  #PROJECTS
+  {
+    padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+  }
+  .container
+  {
+    width: 100%;
+  }
+  #CONTACT
+  {
+    padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+  }
+  .container
+  {
+    width: 100%;
+  }
+  .MESSAGE
+  {
+  width: 150px;height: 100px;
+  }
+  Button
+  {
+    font-size: small;
+  background:green ;
+  color: black;
+  border-radius: 14px;
+  width:122px ;
+  height: 22px;
+  }
+  }
