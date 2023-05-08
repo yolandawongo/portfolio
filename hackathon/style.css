@@ -1,0 +1,559 @@
+*{
+    margin:0;padding: 0;font-family:sans-serif ;box-sizing: border-box;
+  }
+  body
+  {
+    width: 100%;
+  background-color:darkgray
+  
+  }
+
+  #header
+  {
+  width: 100%; height: 3px;background-size: cover;background-position: center;
+  }
+  .container
+  {
+    padding:10px 10%;
+  }
+  nav
+  {
+    display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;
+  }
+  .logo
+  {
+    width:120px ;border-radius:320px ;
+  }
+  nav ul li 
+  {
+  display: inline-block;list-style: none;margin: 10px 20px;
+  }
+  nav ul li a 
+  {
+    color: blue;text-decoration: none;font-size: 18px;position: relative;
+  }
+  nav ul li a ::after
+  {
+   content:'' ; width:0 ;height: 3px;background:purple ;position: absolute;left: 0;bottom: -6px; transition:0.5s ;
+  }
+  nav ul li a :hover
+  {
+  width: 100%;
+  }
+  .header text
+  {
+  margin-top: 30%;font-size: 30px; 
+  }
+  .header-text p
+  {
+  margin: 20px 20px; font: size 30px;
+  }
+  .header-text H1
+  {
+  margin: 20px 20px ;font-size:40px ;
+  }
+  .header-text H1 SPAN
+  {
+    color: blue;font-size:60px ;font-style: italic;margin: 20px 20px;
+  }
+  .container
+  {
+  width: 100%;
+  }
+  .container img
+  {
+  width:100% ; border: radius 24px;
+  }
+  .sample-slider{
+    width:100%;
+}
+.sample-slider img{
+    width: 100%;
+}
+  #ABOUT
+  {
+   padding: 80px 0; display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis:15% 15%;
+   color: black;
+  }
+  .container h1
+  {
+  padding: 80px 0;text-align: center;
+  }
+  .footer
+  {
+margin-left: 120px;
+  }
+  #PRODUCTS
+  {
+    padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+  }
+  .container
+  {
+    width: 100%;
+  }
+  .column {
+    float: left;
+    width: fit-content;
+    padding: 0 10px;
+  }
+  
+  .row 
+  {
+    margin: 0 -5px;
+    
+  }
+  .row:after 
+  {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card 
+  {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: fit-content;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+  }
+  
+  .price {
+    color: olivedrab;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .fa-cart-plus{
+    background:#0652DD;
+  }
+  
+  .addtocart{
+    display:block;
+    padding:0.5em 1em 0.5em 1em;
+    border-radius:100px;
+    border:none;
+    font-size:2em;
+    position:relative;
+    background:#0652DD;
+    cursor:pointer;
+    height:2em;
+    width:10em;
+    overflow:hidden;
+    transition:transform 0.1s;
+    z-index:1;
+  }
+  .addtocart:hover{
+    transform:scale(1.1);
+  }
+  .pretext{
+    color:#fff;
+    background:#0652DD;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Quicksand', sans-serif;
+  }
+  i{
+    margin-right:10px;
+  }
+  .done{
+    background:#be2edd;
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    transition:transform 0.3s ease;
+  
+    transform:translate(-110%) skew(-40deg);
+  }
+  .posttext{
+    background:#be2edd;
+  }
+  .fa-check{
+    background:#be2edd;
+  }
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  #CONTACTS
+  {
+    padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+  }
+  .container
+  {
+    width: 100%;
+  }
+  #INSTALLERS
+  {
+    padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+  }
+  .container
+  {
+    width: 100%;
+  }
+  .container img
+  {
+  border-radius: 24px; width: 500px;height: 500px;
+  }
+  .row
+  {
+    display: flex;justify-content: space-between;flex-wrap: wrap;
+  }
+  .INSTALLERS-COL-1
+  {
+flex-basis: 60%;
+  }
+  .INSTALLERS-COL-2
+  {
+flex-basis: 35%;
+  }
+
+  
+  @media only screen and(max-width: 100% ){/* For desktop: */
+    body
+  {
+    width: 100%;
+  background-color:darkgray
+  
+  }
+  #header
+  {
+  width: 100%; height: 3px;background-size: cover;background-position: center;
+  }
+  .container
+  {
+    padding:10px 10%;
+  }
+  nav
+  {
+    display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;
+  }
+  .logo
+  {
+    width:10%;
+  }
+  nav ul li 
+  {
+  display: inline-block;list-style: none;margin: 10px 20px;
+  }
+  nav ul li a 
+  {
+    color: blue;text-decoration: none;font-size: 18px;position: relative;
+  }
+  nav ul li a ::after
+  {
+   content:'' ; width:0 ;height: 3px;background:purple ;position: absolute;left: 0;bottom: -6px; transition:0.5s ;
+  }
+  nav ul li a :hover
+  {
+  width: 100%;
+  }
+  .header text
+  {
+  margin-top: 30%;font-size: 30px;
+  }
+  .header-text p
+  {
+  margin: 20px 20px; font: size 30px;
+  }
+  .header-text H1
+  {
+  margin: 20px 20px ;font-size:40px ;
+  }
+  .header-text H1 SPAN
+  {
+    color: blue;font-size:60px ;font-style: italic;margin: 20px 20px;
+  }
+  .container
+  {
+  width: 100%;
+  }
+  .container img
+  {
+  width:50% ; border: radius 15%;
+  }
+  .sample-slider{
+    width:100%;
+}
+.sample-slider img{
+    width: 100%;
+}
+  #ABOUT
+  {
+   padding: 80px 0;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis:15% 15%;
+   color: black;
+  }
+  .container h1
+  {
+  padding: 80px 0;text-align: center;
+  } .footer
+  {
+margin-left: 120px;
+  }
+  
+  #PRODUCTS
+  {
+    padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+  }
+  .container
+  {
+    width: 100%;
+  }
+  .column {
+    width: fit-content;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+position: relative;
+  }
+  
+  .price {
+    color: olivedrab;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  #CONTACTS
+  {
+    padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+  }
+  .container
+  {
+    width: 100%;
+  }
+  #INSTALLERS
+  {
+    padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+  }
+  .container
+  {
+    width: 100%;
+  }
+  .container img
+  {
+  border-radius: 24px; width: 45%;height: 45%;
+  }
+  .row
+  {
+    display: flex;justify-content: space-between;flex-wrap: wrap;
+  }
+  .INSTALLERS-COL-1
+  {
+flex-basis: 60%;
+  }
+  .INSTALLERS-COL-2
+  {
+flex-basis: 35%;
+  }
+  
+  }
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+    body
+    {
+      width: 100%;
+      height:750px ;
+    background-color:darkgray
+    
+    }
+    #header
+    {
+    width: 100%; height: 3px;background-size: cover;background-position: center;
+    }
+    .container
+    {
+      padding:10px 10%;
+    }
+    nav
+    {
+     
+    display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;
+    }
+    .logo
+    {
+      width:10% ;
+    }
+    nav ul li 
+    {
+    display: inline-block;list-style: none;margin: 5px 5px;
+    }
+    nav ul li a 
+    {
+      color: blue;text-decoration: none;font-size: 18px;position: relative;
+    }
+    nav ul li a ::after
+    {
+     content:'' ; width:0 ;height: 3px;background:purple ;position: absolute;left: 0;bottom: -6px; transition:0.5s ;
+    }
+    nav ul li a :hover
+    {
+    width: 100%;
+    }
+    .header text
+    {
+    margin-top: 30%;font-size: 30px;
+    }
+    .header-text p
+    {
+    margin: 20px 20px; font: size 30px;
+    }
+    .header-text H1
+    {
+    margin: 20px 20px ;font-size:40px ;
+    }
+    .header-text H1 SPAN
+    {
+      color: blue;font-size:60px ;font-style: italic;margin: 20px 20px;
+    }
+    .container
+    {
+    width: 100%;
+    }
+    .container img
+    {
+    width:50% ; border: radius 15%;
+    }
+    .sample-slider{
+      width:100%;
+  }
+  .sample-slider img{
+      width: 100%;
+  }
+    #ABOUT
+    {
+     padding: 80px 0; color:black; display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis:15% 15%;
+     
+    }
+    .container h1
+    {
+    padding: 80px 0;text-align: center;
+    } 
+    .footer
+    {
+     margin-left: 90px
+    }
+    #PRODUCTS
+    {
+      padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+    }
+    .container
+    {
+      width: 100%;
+    }
+    .container.p span
+    {
+font-family: bold;
+color: aqua;
+    }
+    .column {
+      width: fit-content;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+      position: relative;
+    }
+    
+    .price {
+      color:olivedrab;
+      font-size: 22px;
+    }
+    
+    .card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+    
+    .card button:hover {
+      opacity: 0.7;
+    }
+    #CONTACTS
+    {
+      padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+    }
+    .container
+    {
+      width: 100%;
+    }
+    #INSTALLERS
+    {
+      padding: 80px 0;color: black;display: flex;justify-content: space-between;flex-wrap: wrap;flex-basis: 15% 15%;
+    }
+    .container
+    {
+      width: 100%;
+    }
+    .container img
+    {
+    border-radius: 24px; width: 45%;height: 45%;
+    }
+    .row
+  {
+    display: flex;justify-content: space-between;flex-wrap: wrap;
+  }
+  .INSTALLERS-COL-1
+  {
+flex-basis: 60%;
+  }
+  .INSTALLERS-COL-2
+  {
+flex-basis: 35%;
+  }
+ 
+  }
